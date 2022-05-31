@@ -22,7 +22,7 @@ header .navbar ul li .nav-link{
     font-size: 16px;
     margin-right: 5px;
     border-radius: 5px;
-    border: 1px solid #404040;
+    border-bottom: 1px solid #404040;
 }
 header .navbar ul li .nav-link:hover{
     color: #fff;
@@ -56,10 +56,19 @@ header .sign-btn:hover{
     background-color: #FF6F00;
     color: #fff;
 }
-.product-service h1{
+.product-service h1, .client h1, .about-us h1{
     color: #1D4999;
     text-transform: uppercase;
     font-size: 30px;
+}
+.client img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.client h4{
+    padding-top: 10px;
+    font-size: 18px;
 }
 footer h6{
     color: #644F9C;
